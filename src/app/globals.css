@@ -17,5 +17,39 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", serif;
+  background-color: #024430;
+}
+
+.gradiant {
+  background: radial-gradient(ellipse at center, #3c5d1c 20%, #0b3d26 80%);
+}
+
+.feedbackGradiant {
+  background: radial-gradient(circle, #254218, #154424);
+}
+
+.allSideShadow {
+  box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.embla {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  flex: 0 0 33%;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .embla__slide {
+    flex: 0 0 100%;
+    padding: 0;
+  }
 }
