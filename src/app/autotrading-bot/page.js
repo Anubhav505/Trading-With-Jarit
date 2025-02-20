@@ -1,7 +1,7 @@
 import AutobotContainers from "@/components/autobotContainers";
 import AutobotFeedbacks from "@/components/AutobotFeedbacks";
 import Hero from "@/components/Hero";
-import Popup from "@/components/Popup";
+import Popup2 from "@/components/Popup2";
 
 export default function Autobot() {
     return (
@@ -27,13 +27,7 @@ export default function Autobot() {
 
             </div>
             <AutobotContainers />
-            <Popup
-                title1="BUY THE 1 MONTH LICENSE NOW FOR JUST ₹4299 / $50"
-                title2="BUY THE 3 MONTH LICENSE NOW FOR JUST ₹7999 / $90"
-                title3="BUY THE YEARLY LICENSE NOW FOR JUST ₹19,999 / $240"
-                note="NOTE: YOU CAN ALSO BUY DIRECTLY FROM US ON TELEGRAM. WE ACCEPT UPI, USDT, BTC, SKRILL AND PAYPAL."
-                telegramLink="https://telegram.me/jaritmunjal12"
-            />
+            <Popup2/>
             <AutobotFeedbacks
                 title="Autobot"
             />

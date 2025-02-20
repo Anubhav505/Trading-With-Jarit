@@ -28,12 +28,7 @@ export default function PcSoftware() {
                     <h1 className="text-sm md:text-xl lg:text-3xl">🟢 Alert Timeframe is customisable as well – 1 min, 5 min, 10 min, 15 mins etc.</h1>
                 </div>
             </div>
-            <Popup
-                title1="Buy Now in Just ₹ 3499 / $40 Including Installation and Lifetime Access"
-                title2="Buy Now in Just ₹4999 / $60 Including Installation And Lifetime access + OTC Markets Also"
-                note="NOTE: YOU CAN ALSO BUY DIRECTLY FROM US ON TELEGRAM. WE ACCEPT UPI, USDT, BTC, SKRILL AND PAYPAL."
-                telegramLink="https://telegram.me/anotherUser"
-            />
+            <Popup/>
             <PcFeedbacks
                 title="Signal Software"
             />
