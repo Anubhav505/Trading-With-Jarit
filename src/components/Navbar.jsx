@@ -11,7 +11,7 @@ export default function Navbar() {
 
     return (
         <div className="h-[10vh] sm:h-[23vh] flex items-center">
-            <div className="hidden md:block w-full">
+            <div className="hidden lg:block w-full">
                 <div className="flex justify-between items-center px-6">
                     <div className="flex items-center gap-6">
                         <div>
@@ -32,13 +32,13 @@ export default function Navbar() {
             </div>
 
             {/* Menu Button */}
-            <div className="menu md:hidden w-full flex justify-end p-4" onClick={toggleMenu}>
+            <div className="menu lg:hidden w-full flex justify-end p-4" onClick={toggleMenu}>
                 <span className="bg-[#1A6C7A] p-3 flex cursor-pointer"><EllipsisVertical />TWJ MENU</span>
             </div>
 
             {/* Sliding Menu Options */}
             <div
-                className={`menuoptions md:hidden absolute top-0 w-full text-white bg-[#082a20] flex flex-col justify-center gap-4 px-5 font-semibold z-50 overflow-hidden py-4 transition-transform duration-300 ease-in-out ${isMenuOpen ? 'transform translate-y-0' : 'transform -translate-y-full'
+                className={`menuoptions lg:hidden absolute top-0 w-full text-white bg-[#082a20] flex flex-col justify-center gap-4 px-5 font-semibold z-50 overflow-hidden py-4 transition-transform duration-300 ease-in-out ${isMenuOpen ? 'transform translate-y-0' : 'transform -translate-y-full'
                     }`}
             >
                 <Link href={"/"} onClick={toggleMenu}>Home</Link>

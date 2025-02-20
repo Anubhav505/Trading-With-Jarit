@@ -11,10 +11,13 @@ export default function Home() {
         clientsCount={5000}
         yearsCount={6}
         description="We have transformed many struggling beginners into professional and successful traders through our easy to understand and highly valuable services."
-        showImage={false}  // No image, show counters
+        showImage={false}
+        hasBackgroundImage={true}
       />
       <Services />
-      <Feedbacks />
+      <Feedbacks 
+        title="Software"
+        />
       <SocialLinks />
     </>
   );

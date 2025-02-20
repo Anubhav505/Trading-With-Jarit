@@ -26,7 +26,7 @@ export default function StockChart() {
     ];
 
     return (
-        <div className="bg-[#134225] flex flex-col gap-20 md:gap-40 p-4 md:p-20 justify-center text-[#fffdde] md:text-white">
+        <div className="bg-[#134225] flex flex-col gap-20 md:gap-40 p-4 md:p-20 justify-center text-[#fffdde] md:text-white mt-5">
 
             <div className="flex md:gradiant flex-col lg:flex-row gap-20 md:gap-32">
                 <div className="bg-[#032b1f] allSideShadow w-full rounded-xl md:rounded-3xl overflow-hidden shadow-md p-8 flex flex-col md:flex-row lg:flex-col">

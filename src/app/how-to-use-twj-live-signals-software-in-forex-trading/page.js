@@ -27,7 +27,7 @@ export default function Forex() {
                     </h1>
                 </div>
             </div>
-            <Link href={"/twj-pc-software-2"} className="rounded-xl md:rounded-none tracking-widest my-10 py-4 px-10 allSideShadow text-xs font-bold text-center bg-white text-[#024430]">KNOW MORE ABOUT TWJ SIGNAL SOFTWARE</Link>
+            <Link href={"/twj-p-c-software"} className="rounded-xl md:rounded-none tracking-widest my-10 py-4 px-10 allSideShadow text-xs font-bold text-center bg-white text-[#024430]">KNOW MORE ABOUT TWJ SIGNAL SOFTWARE</Link>
         </div>
 
     )

@@ -4,10 +4,8 @@ import useEmblaCarousel from 'embla-carousel-react';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const images = [
-    "/feedbacks/1.png", "/feedbacks/2.png", "/feedbacks/3.png",
-    "/feedbacks/4.png", "/feedbacks/5.jpg", "/feedbacks/6.jpg",
-    "/feedbacks/7.jpg", "/feedbacks/8.png", "/feedbacks/9.png",
-    "/feedbacks/10.png",
+    "/Pc/1.png", "/Pc/2.png", "/Pc/3.png",
+    "/Pc/4.png"
 ];
 
 export default function Feedbacks({ title }) {

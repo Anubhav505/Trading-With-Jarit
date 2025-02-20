@@ -1,5 +1,5 @@
 import AutobotContainers from "@/components/autobotContainers";
-import Feedbacks from "@/components/Feedbacks";
+import AutobotFeedbacks from "@/components/AutobotFeedbacks";
 import Hero from "@/components/Hero";
 import Popup from "@/components/Popup";
 
@@ -7,10 +7,10 @@ export default function Autobot() {
     return (
         <>
             <Hero
-                title="TWJ PC Software"
-                subtitle="TWJ LIVE SIGNAL SOFTWARE is the best choice when it comes to Manual Trading in Binary Options using a signal software. With such powerful confirmations and arrows you can give your trading a BOOST!"
-                showImage={true}  // Show image instead of counters
-                imageSrc="/atuoTradingBot.jpg"  // Your image URL
+                title="TWJ AUTO TRADING BOT"
+                subtitle="TWJ AUTOBOT is an automated trading robot for binary options. It automatically trades according to the multiple inbuilt strategies. It has upto 90 to 95% accuracy and you can customise your target, stoploss and trade amount."
+                showImage={true}
+                imageSrc="/atuoTradingBot.jpg"
             />
             <div className="bg-[#024430] w-full h-auto px-2">
 
@@ -34,7 +34,9 @@ export default function Autobot() {
                 note="NOTE: YOU CAN ALSO BUY DIRECTLY FROM US ON TELEGRAM. WE ACCEPT UPI, USDT, BTC, SKRILL AND PAYPAL."
                 telegramLink="https://telegram.me/jaritmunjal12"
             />
-            <Feedbacks />
+            <AutobotFeedbacks
+                title="Autobot"
+            />
         </>
     )
 }

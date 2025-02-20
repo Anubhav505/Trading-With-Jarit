@@ -1,4 +1,5 @@
 'use client';
+import { RxCross2 } from "react-icons/rx";
 import { useState } from 'react';
 import { motion } from "framer-motion";
 
@@ -61,6 +62,10 @@ export default function ClientFeedbacksTestimonials2() {
                         animate={{ scale: 1 }}
                         exit={{ scale: 0.8 }}
                     />
+                    <div className='absolute top-5 right-5 flex gap-3'>
+                        {/* <span>Zoom</span> */}
+                        <span className='cursor-pointer'><RxCross2 className="text-3xl"/></span>
+                    </div>
                 </motion.div>
             )}
        </>

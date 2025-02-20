@@ -40,15 +40,15 @@ export default function FAQ() {
     const handleToggle = (id) => setOpen(open === id ? null : id);
 
     return (
-        <div>
-            <h1 className="text-center text-5xl font-bold text-[#FFDE72]">
+        <div className="allSideShadow m-2 bg-[#032b1f] py-[20px] px-1 flex flex-col gap-2">
+            <h1 className="text-center text-xl md:text-5xl font-bold text-[#FFDE72]">
                 Frequently Asked Questions
             </h1>
             <div className="flex-col flex justify-center">
                 {faqItems.map(({ id, question, answer }) => (
-                    <div key={id} className="relative p-4">
+                    <div key={id} className="relative p-3">
                         <h1
-                            className="cursor-pointer px-4 bg-[#757575] font-semibold text-xl flex items-center justify-between"
+                            className="cursor-pointer bg-[#38584e] font-semibold text-base flex items-center justify-between p-5"
                             onClick={() => handleToggle(id)}
                         >
                             {question}
@@ -57,7 +57,7 @@ export default function FAQ() {
                             </span>
                         </h1>
                         <div
-                            className={`transition-all duration-500 ease-in-out bg-[#757575] p-4 ${open === id
+                            className={`transition-all duration-500 ease-in-out bg-[#38584e] p-4 ${open === id
                                     ? "max-h-screen opacity-100 py-4"
                                     : "max-h-0 opacity-0 overflow-hidden py-0"
                                 }`}
