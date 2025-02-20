@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Tradin With Jarit",
+  title: "Trading With Jarit",
   description: "Trade Smarter, Not Harder Be a part of a successful trading community by joining Trading With Jarit today. We have the services available which help all trading goals &amp; dreams become true. Satisfied Clients 0 + Years of trust 0 + We have transformed many struggling beginners into professional and successful traders through our easy help",
   icons: {
     icon: "/favicon.jpeg",
