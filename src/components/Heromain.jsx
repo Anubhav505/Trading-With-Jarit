@@ -9,7 +9,7 @@ export default function Heromain({
     description,
 }) {
     return (
-        <div className={`h-screen w-full flex justify-center ${'bg-[#024430]'}`}>
+        <div className={`py-16 w-full flex justify-center ${'bg-[#024430]'}`}>
             <div className="w-full sm:w-[85%] lg:w-[74%] flex flex-col sm:items-center sm:justify-center gap-6">
                 <div className={`py-10 relative sm:bg-none w-full flex flex-col lg:flex-row gap-10 bg-cover bg-center bg-[url('/hero.jpg')]`}>
                     <div className="absolute inset-0 bg-[#024430] opacity-85"></div>
@@ -18,8 +18,6 @@ export default function Heromain({
                         <h1 className="text-[#ffde72] sm:text-4xl font-extrabold leading-tight text-4xl lg:text-6xl">{title}</h1>
                         <h2 className="text-base sm:text-lg lg:text-2xl">{subtitle}</h2>
                     </div>
-
-                    {/* Left side now only contains the counter */}
                     <div className="lg:w-1/2 flex lg:flex-col items-center gap-12 justify-start sm:justify-center z-10 px-4">
                         <div className="flex sm:items-center flex-col gap-1 sm:gap-2">
                             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold sm:font-semibold">
@@ -37,8 +35,6 @@ export default function Heromain({
                         </div>
                     </div>
                 </div>
-
-                {/* Description section added back */}
                 <div>
                     <p className="text-xl sm:text-2xl text-center sm:text-start px-4 sm:px-0">{description}</p>
                 </div>
